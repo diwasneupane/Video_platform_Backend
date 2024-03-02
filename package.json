@@ -1,0 +1,16 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "backend project of video uploading platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javaScript",
+    "backend",
+    "node"
+  ],
+  "author": "Diwas Neupane",
+  "license": "ISC"
+}
