@@ -4,7 +4,6 @@
   "description": "backend project of video uploading platform",
   "main": "index.js",
   "type": "module",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +13,8 @@
     "node"
   ],
   "author": "Diwas Neupane",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.5"
+  }
 }
