@@ -2,5 +2,5 @@
 .env
 .env.*
 /.vscode
-/node_models
+/node_modules
 ./dist

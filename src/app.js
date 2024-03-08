@@ -13,4 +13,9 @@ app.use(epress.json({ limit: "16kb" }));
 app.use(epress.urlencoded({ extended: true, limit: "16kb" }));
 app.use(epress.static("public"));
 app.use(cookieParser());
+
+//importing routes
+import userRoute from "./routes/user.routes.js";
+app.use("/api/v1/users", userRoute);
+
 export { app };
